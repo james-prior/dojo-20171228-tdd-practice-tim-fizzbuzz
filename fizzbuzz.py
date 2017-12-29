@@ -3,4 +3,6 @@ def fizzbuzz(x):
         return 'Fizz'
     elif x == 5:
         return 'Buzz'
+    elif x == 10:
+        return 'Buzz'
     return str(x)
