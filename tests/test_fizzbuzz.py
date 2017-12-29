@@ -5,6 +5,7 @@ from fizzbuzz import fizzbuzz
 number_to_expected_string = {
     1: '1',
     2: '2',
+    3: 'Fizz',
     4: '4',
 }
 @pytest.mark.parametrize('number, expected_string', number_to_expected_string.items())
