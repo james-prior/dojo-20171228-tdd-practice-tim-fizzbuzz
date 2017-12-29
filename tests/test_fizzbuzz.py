@@ -7,6 +7,7 @@ number_to_expected_string = {
     2: '2',
     3: 'Fizz',
     4: '4',
+    5: 'Buzz',
     6: 'Fizz',
 }
 @pytest.mark.parametrize('number, expected_string', number_to_expected_string.items())
